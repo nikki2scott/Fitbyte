@@ -29,3 +29,26 @@ The goal is to practice C# class design using:
 1. Clone the repository:
    ```bash
    git clone https://github.com/nikki2scott/FitByte.git
+
+## Unit Testing Information
+
+**Author:** Nikki  
+**Test Framework:** MSTest  
+**How to Run Tests:**
+dotnet test
+
+
+**What's Being Tested:**
+
+- `FitByte.cs`
+  - `TargetHeartRate()`: Ensures correct heart rate calculation
+  - `GetAge()` / `SetAge()`: Age property access
+  - `GetRestingHeartRate()` / `SetRestingHeartRate()`: Resting HR access
+
+- `Workout.cs`
+  - `CaloriesBurned()`: Calculates total calories
+  - `GetWorkoutType()` / `SetWorkoutType()`
+  - `GetDurationMinutes()` / `SetDurationMinutes()`
+
+
+
